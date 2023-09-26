@@ -1,0 +1,30 @@
+.container1 {
+  background-color: aqua;
+  width: 340px;
+  height: 680px;
+  border: 2px solid red;
+}
+
+.bottom_admin {
+  display: flex;
+  flex-direction: column;
+  column-gap: 10px;
+  border: 2px solid rgb(195, 42, 42);
+}
+.bottom_admin_rank {
+  margin-top: 2px;
+  margin-bottom: 20px;
+  border: 2px solid rgb(33, 30, 30);
+
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+
+  height: 30px;
+  text-align: start;
+}
+.bottom_admin_rank span {
+  border: 0px solid red;
+  margin-right: 40px;
+}

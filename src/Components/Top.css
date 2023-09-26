@@ -1,0 +1,119 @@
+.top_section {
+  border: 2px solid black;
+  height: 275px;
+  border-radius: 20px;
+  background-color: yellow;
+  position: relative;
+  align-items: center;
+  width: 337px;
+
+  overflow: hidden;
+}
+
+.arrow_left {
+  border: 2px solid rgb(194, 33, 33);
+  position: absolute;
+  width: 50px;
+  top: 32px;
+  left: 10px;
+  color: rgb(17, 167, 167);
+  padding-top: 2px;
+  cursor: pointer;
+}
+.arrow_right {
+  border: 2px solid red;
+  position: absolute;
+  top: 32px;
+  width: 50px;
+  right: 10px;
+  color: blue;
+  cursor: pointer;
+}
+.ellipse_arrow {
+  position: absolute;
+  top: 16px;
+  width: 40px;
+  height: 40px;
+  left: 207px;
+  border: 1px solid #1b1c06;
+  background-color: #ece339;
+  border-radius: 50%;
+}
+.ellipse_arrow1 {
+  position: absolute;
+
+  top: 69px;
+  width: 90px;
+  height: 90px;
+  left: -69px;
+  border: 1px solid #1b1c06;
+  background-color: #ece339;
+  border-radius: 50%;
+}
+.ellipse_arrow2 {
+  position: absolute;
+
+  top: -34px;
+  width: 90px;
+  height: 90px;
+  left: 78px;
+  border: 1px solid #1b1c06;
+  background-color: #ece339;
+  border-radius: 50%;
+}
+
+.ellipse_arrow3 {
+  position: absolute;
+
+  top: 70px;
+  width: 90px;
+  height: 90px;
+  left: 279px;
+  border: 1px solid #1b1c06;
+  background-color: #ece339;
+  border-radius: 50%;
+}
+
+.ellipse_arrow_first {
+  position: absolute;
+
+  top: 167px;
+  width: 90px;
+  height: 203px;
+  left: 128px;
+  border: 1px solid #1b1c06;
+  background-color: #ece339;
+}
+.ellipse_arrow_second {
+  position: absolute;
+
+  top: 200px;
+  width: 102px;
+  height: 166px;
+  left: 26px;
+  border: 1px solid #1b1c06;
+  background-color: #ece339;
+  transform: rotate(-7.29deg);
+}
+
+.ellipse_arrow_third {
+  position: absolute;
+  top: 220px;
+  width: 90px;
+  height: 166px;
+  left: 220px;
+
+  border: 1px solid #1b1c06;
+  background-color: #c9e60f;
+  transform: rotate(3.29deg);
+}
+.today_month {
+  color: black;
+  position: absolute;
+  top: 90px;
+  left: 50px;
+}
+.today_month span {
+  margin-right: 20px;
+  cursor: pointer;
+}
